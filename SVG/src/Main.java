@@ -11,6 +11,7 @@ public class Main {
     }
 
 
+
     public static void main(String[] args) {
         System.out.println("YES");
         Point punkt =new Point(2.3,4.5);
