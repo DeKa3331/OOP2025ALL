@@ -94,9 +94,4 @@ public class Polygon extends Shape {
     public String toSvg() {
         return "<polygon points=\"" + this + "\" style=\"" + style.toSvg() + "\" />";
     }
-
-    @Override
-    public String toSVG() {
-        return null;
-    }
 }
