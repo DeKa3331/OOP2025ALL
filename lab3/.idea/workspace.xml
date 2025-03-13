@@ -4,17 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0278c5e7-d014-4fea-90f8-9f229253f66b" name="Changes" comment="dodano znajdowanie odcinkow prostopadlych (fixed)">
+    <list default="true" id="0278c5e7-d014-4fea-90f8-9f229253f66b" name="Changes" comment="dodano shape">
+      <change afterPath="$PROJECT_DIR$/src/Elipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polygon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Segment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Segment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Style.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SvgScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SvgScene.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -121,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741878412687</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tworzenie kwadratu na podstawie przekatnej">
+      <option name="closed" value="true" />
+      <created>1741879017330</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741879017330</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,6 +147,8 @@
     <MESSAGE value="check what was wrong" />
     <MESSAGE value="dodano znajdowanie odcinkow prostopadlych" />
     <MESSAGE value="dodano znajdowanie odcinkow prostopadlych (fixed)" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodano znajdowanie odcinkow prostopadlych (fixed)" />
+    <MESSAGE value="tworzenie kwadratu na podstawie przekatnej" />
+    <MESSAGE value="dodano shape" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodano shape" />
   </component>
 </project>

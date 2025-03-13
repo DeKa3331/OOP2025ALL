@@ -1,7 +1,6 @@
-public class Polygon {
+public class Polygon extends Shape {
     private final Point[] vertices;
-    private final Style style;
-//      ja zepsulem zobaczy co
+//      TODO ja zepsulem zobaczyc co
 //    // Konstruktor dokonuje głębokiej kopii tablicy
 //    public Polygon(Point[] vertices) {
 //        this(vertices,new Style("none","black",1));
@@ -54,11 +53,11 @@ public class Polygon {
     }
 
     public Polygon(Point[] vertices, Style style) {
+        super(style);//super musi byc 1sza instrukcja konstruktora
         this.vertices = new Point[vertices.length];
         for(int i=0; i<vertices.length; i++){
             this.vertices[i] = new Point(vertices[i]);
         }
-        this.style = style;
     }
 
     public void setPoint(int ix, int x, int y){
@@ -94,5 +93,10 @@ public class Polygon {
 
     public String toSvg() {
         return "<polygon points=\"" + this + "\" style=\"" + style.toSvg() + "\" />";
+    }
+
+    @Override
+    public String toSVG() {
+        return null;
     }
 }
