@@ -18,21 +18,20 @@ public class Segment {
 
     public Segment[] perpendicularSegments(Point origin)
     {
-        return perpendicularSegements(origin,length());
+        return perpendicularSegments(origin,length());
 
     }
 
-    public Segment[] perpendicularSegements(Point origin,double length)
-    {
-        double dx=b.getX()-a.getX();
-        double dy=b.getY()-a.getY();
-        dx=dx/length()*length;
-        dy=dy/length()*length;
+    public Segment[] perpendicularSegments(Point origin, double length){
+        double dx = b.getX() - a.getX();
+        double dy = b.getY() - a.getY();
+        dx = dx/length() * length;
+        dy = dy/length() * length;
 
         return new Segment[]{
-                        new Segment(origin, new Point(origin.getX()+dx, origin.getY()-dy),
-                        new Segment(origin, new Point(origin.getX()-dx,origin.getY()-dy)
-                };
+                new Segment(origin, new Point(origin.getX()+dx, origin.getY()-dy)),
+                new Segment(origin, new Point(origin.getX()-dx, origin.getY()+dy))
+        };
     }
 
 
