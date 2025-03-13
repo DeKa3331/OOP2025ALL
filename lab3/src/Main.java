@@ -3,9 +3,9 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        Style styl1 = new Style("red", "blue", 2);
-        Style styl2 = new Style("yellow", "black", 3);
-        Style styl3 = new Style("blue", "red", 4);
+        Style styl1 = new Style("red", "blue", 2.0);
+        Style styl2 = new Style("yellow", "black", 3.0);
+        Style styl3 = new Style("blue", "red", 4.0);
 
         Point p1 = new Point(30 ,40);
         Point p2 = new Point();
@@ -54,22 +54,6 @@ public class Main {
 
         System.out.println(polyCopy.boundingBox());
 
-        scene.save("rysunekprzedzmiana.svg");
-
-        // Zmiana stylów po dodaniu do sceny
-        styl1.setFill("yellow");
-        styl1.setStroke("black");
-        styl1.setStrokeWidth(4);
-
-        styl2.setFill("lightblue");
-        styl2.setStroke("purple");
-        styl2.setStrokeWidth(5);
-
-        styl3.setFill("orange");
-        styl3.setStroke("green");
-        styl3.setStrokeWidth(6);
-
-        System.out.println("Po zmianie stylów:");
         System.out.println(scene.toSvg());
 
         scene.save("rysunek.svg");

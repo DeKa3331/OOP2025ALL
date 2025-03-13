@@ -17,7 +17,7 @@ public class Polygon {
         for (int i = 0; i < other.vertices.length; i++) {
             this.vertices[i] = new Point(other.vertices[i]);
         }
-        this.style = new Style(other.style.getFill(), other.style.getStroke(), other.style.getStrokeWidth());
+        this.style = other.style;
     }
 
     public void setPoint(int ix, int x, int y) {
@@ -60,6 +60,6 @@ public class Polygon {
     }
 
     public String toSvg() {
-        return "<polygon points=\"" + this + "\" style=\"" + style.toString() + "\" />";
+        return "<polygon points=\"" + this + "\" style=\"" + style.toSvg() + "\" />";
     }
 }
