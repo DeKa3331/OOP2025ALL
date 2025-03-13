@@ -29,10 +29,6 @@ public class Polygon {
         this.style = style;
     }
 
-    public Style getStyle() {
-        return style;
-    }
-
     public BoundingBox boundingBox() {
         if (vertices.length == 0) {
             return null;
