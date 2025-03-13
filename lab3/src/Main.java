@@ -3,9 +3,6 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        Style styl1 = new Style("red", "blue", 2.0);
-        Style styl2 = new Style("yellow", "black", 3.0);
-        Style styl3 = new Style("blue", "red", 4.0);
 
         Point p1 = new Point(30 ,40);
         Point p2 = new Point();
@@ -21,11 +18,11 @@ public class Main {
         Point[] arr = {p1, p2, p1};
         arr[2] = new Point(30, 0);
 
-        Polygon poly = new Polygon(arr, styl1);
+        Style style = new Style("red","black",2.0);
+        Polygon poly = new Polygon(arr, style);
         System.out.println(poly);
 
         Polygon polyCopy = new Polygon(poly);
-        polyCopy.setStyle(styl2);
         System.out.println(polyCopy);
 
         poly.setPoint(1, 0, 40);
@@ -45,8 +42,8 @@ public class Main {
                 new Point(70, 70),
                 new Point(130, 70),
                 new Point(130, 130),
-                new Point(70, 130)
-        }, styl3);
+                new Point(70, 130),
+        });
         scene.addPolygon(square);
 
         System.out.println("Scena svg:");
