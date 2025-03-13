@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="14a82868-78e0-4634-9820-90a58b494822" name="Changes" comment="" />
+    <list default="true" id="14a82868-78e0-4634-9820-90a58b494822" name="Changes" comment="zajecia 1 dr. Piekarz">
+      <change afterPath="$PROJECT_DIR$/lab2/rysunek.svg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +18,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2uBeZWSK10A5wE1B6UrAvJGBRUl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -27,7 +32,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Jakub/Desktop/2semestr 2 rok/java/Cale Repo/lab2"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -46,6 +52,45 @@
       <option name="presentableId" value="Default" />
       <updated>1741726451080</updated>
     </task>
+    <task id="LOCAL-00001" summary="zajecia 2 mgr niedziolka">
+      <option name="closed" value="true" />
+      <created>1741729126360</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741729126360</updated>
+    </task>
+    <task id="LOCAL-00002" summary="zajecia 2 mgr niedziolka, juz dziala">
+      <option name="closed" value="true" />
+      <created>1741729231097</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741729231097</updated>
+    </task>
+    <task id="LOCAL-00003" summary="zajecia 2 mgr niedziolka, juz dziala">
+      <option name="closed" value="true" />
+      <created>1741729649187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741729649187</updated>
+    </task>
+    <task id="LOCAL-00004" summary="zajecia 1 dr. Piekarz">
+      <option name="closed" value="true" />
+      <created>1741729668892</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741729668892</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zajecia 2 mgr niedziolka" />
+    <MESSAGE value="zajecia 2 mgr niedziolka, juz dziala" />
+    <MESSAGE value="zajecia 1 dr. Piekarz" />
+    <option name="LAST_COMMIT_MESSAGE" value="zajecia 1 dr. Piekarz" />
   </component>
 </project>

@@ -2,8 +2,10 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        //TODO: Utworzyć obiekt Style i przypisać do utworzonych polygonów (referencja)
-        //TODO: zmienić style w main i zaobserwować zmianę we wszystkich wielokątach
+
+        Style styl1 = new Style("red", "blue", 2);
+        Style styl2 = new Style("yellow", "black", 3);
+        Style styl3 = new Style("blue", "red", 4);
 
         Point p1 = new Point(30 ,40);
         Point p2 = new Point();
@@ -18,11 +20,12 @@ public class Main {
 
         Point[] arr = {p1, p2, p1};
         arr[2] = new Point(30, 0);
-//        p2.setX(0);
 
-        Polygon poly = new Polygon(arr);
+        Polygon poly = new Polygon(arr, styl1);
         System.out.println(poly);
+
         Polygon polyCopy = new Polygon(poly);
+        polyCopy.setStyle(styl2);
         System.out.println(polyCopy);
 
         poly.setPoint(1, 0, 40);
@@ -30,7 +33,6 @@ public class Main {
         System.out.println("Kopia: "+polyCopy);
 
         System.out.println(polyCopy.toSvg());
-
 
         SvgScene scene = new SvgScene();
         scene.addPolygon(poly);
@@ -44,7 +46,7 @@ public class Main {
                 new Point(130, 70),
                 new Point(130, 130),
                 new Point(70, 130)
-        });
+        }, styl3);
         scene.addPolygon(square);
 
         System.out.println("Scena svg:");
@@ -52,8 +54,24 @@ public class Main {
 
         System.out.println(polyCopy.boundingBox());
 
+        scene.save("rysunekprzedzmiana.svg");
+
+        // Zmiana stylów po dodaniu do sceny
+        styl1.setFill("yellow");
+        styl1.setStroke("black");
+        styl1.setStrokeWidth(4);
+
+        styl2.setFill("lightblue");
+        styl2.setStroke("purple");
+        styl2.setStrokeWidth(5);
+
+        styl3.setFill("orange");
+        styl3.setStroke("green");
+        styl3.setStrokeWidth(6);
+
+        System.out.println("Po zmianie stylów:");
+        System.out.println(scene.toSvg());
+
         scene.save("rysunek.svg");
     }
-
-
 }
