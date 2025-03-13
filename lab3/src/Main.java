@@ -46,13 +46,20 @@ public class Main {
         });
         scene.addPolygon(square);
 
+        Segment diag=new Segment(
+                new Point(100,100),
+                new Point(140,140)
+        );
+
+        Polygon square2 = Polygon.square(diag, style);
+        System.out.println("square2: "+square2.toSvg());
+        scene.addPolygon(square2);
+
+
         System.out.println("Scena svg:");
         System.out.println(scene.toSvg());
 
         System.out.println(polyCopy.boundingBox());
-
-        System.out.println(scene.toSvg());
-
         scene.save("rysunek.svg");
     }
 }

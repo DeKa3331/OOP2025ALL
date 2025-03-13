@@ -4,6 +4,14 @@ public class Segment {
     private final Point a;
     private final Point b;
 
+    public Point getA() {
+        return a;
+    }
+
+    public Point getB() {
+        return b;
+    }
+
     public Segment(Point a, Point b) {
         this.a = new Point(a);      // wykorzystujemy konstrukor kopiujący
         this.b = new Point(b);
@@ -54,5 +62,9 @@ public class Segment {
                 "a=" + a +
                 ", b=" + b +
                 '}';
+    }
+
+    public Point getCenter() {
+        return new Point((a.getX()+b.getX())/2,(a.getY()+b.getY())/2);
     }
 }

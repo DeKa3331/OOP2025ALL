@@ -13,7 +13,7 @@ public final class Style {
 
 
     public String toSvg() {
-        return "fill:" + fillColor + ";stroke:" + strokeColor + ";stroke-width:" + strokeWidth;
-        //TODO dodac wersje magistra
+        return "fill:" + fillColor + ";stroke:" + strokeColor + ";stroke-width:" + strokeWidth; //wersja moja
+        //return "style=\"fill:"+fillColor+";stroke:"+strokeColor+";stroke-width:"+strokeWidth+"\""; -wersja magistra
     }
 }
