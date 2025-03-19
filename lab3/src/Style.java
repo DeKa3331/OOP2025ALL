@@ -9,9 +9,6 @@ public final class Style {
         this.strokeWidth = strokeWidth;
     }
 
-
-
-
     public String toSvg() {
         return "fill:" + fillColor + ";stroke:" + strokeColor + ";stroke-width:" + strokeWidth; //wersja moja
         //return "style=\"fill:"+fillColor+";stroke:"+strokeColor+";stroke-width:"+strokeWidth+"\""; -wersja magistra

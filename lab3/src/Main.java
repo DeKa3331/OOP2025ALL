@@ -3,8 +3,6 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        //jest sobie znacnzik <text>
-
 
         Point p1 = new Point(30 ,40);
         Point p2 = new Point();
@@ -20,7 +18,7 @@ public class Main {
         Point[] arr = {p1, p2, p1};
         arr[2] = new Point(30, 0);
 
-        Style style = new Style("red","black",2.0);
+        Style style = new Style("red","blue",2.0);
         Polygon poly = new Polygon(arr, style);
         System.out.println(poly);
 
@@ -65,6 +63,23 @@ public class Main {
         System.out.println(scene.toSvg());
 
         System.out.println(polyCopy.boundingBox());
+        Style style2 = new Style("red","green",2.0);
+
+        Text text = new Text("I love SVG!", new Point(5, 5), 20,100,style2);
+        System.out.println(text.toSvg());
+        System.out.println(text.boundingBox());
+
+        scene.addShape(text);
+
+
+
+
+
+
         scene.save("rysunek.svg");
+
+
+
+
     }
 }

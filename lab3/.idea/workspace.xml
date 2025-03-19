@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0278c5e7-d014-4fea-90f8-9f229253f66b" name="Changes" comment="dodano shape">
-      <change afterPath="$PROJECT_DIR$/src/Elipse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
+    <list default="true" id="0278c5e7-d014-4fea-90f8-9f229253f66b" name="Changes" comment="dodano elipse i wszystko dziedziczy po shape">
+      <change afterPath="$PROJECT_DIR$/src/Text.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Style.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SvgScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SvgScene.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jakub/Desktop/2semestr 2 rok/java/Cale Repo/lab3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jakub/Desktop/2semestr 2 rok/Spring/springzajecia2&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -137,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741879017330</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dodano elipse i wszystko dziedziczy po shape">
+      <option name="closed" value="true" />
+      <created>1741881163443</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741881163443</updated>
+    </task>
+    <task id="LOCAL-00011" summary="dodano elipse i wszystko dziedziczy po shape">
+      <option name="closed" value="true" />
+      <created>1741881235957</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741881235957</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +164,7 @@
     <MESSAGE value="dodano znajdowanie odcinkow prostopadlych (fixed)" />
     <MESSAGE value="tworzenie kwadratu na podstawie przekatnej" />
     <MESSAGE value="dodano shape" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodano shape" />
+    <MESSAGE value="dodano elipse i wszystko dziedziczy po shape" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodano elipse i wszystko dziedziczy po shape" />
   </component>
 </project>
