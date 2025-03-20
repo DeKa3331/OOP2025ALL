@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0278c5e7-d014-4fea-90f8-9f229253f66b" name="Changes" comment="added Text as a new shape">
-      <change afterPath="$PROJECT_DIR$/../lab4/src/BoundingBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/src/Elipse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/src/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/src/Segment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/src/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/src/Style.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/src/SvgScene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/src/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/Polygon.java" afterDir="false" />
-    </list>
+    <list default="true" id="0278c5e7-d014-4fea-90f8-9f229253f66b" name="Changes" comment="added Text as a new shape" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
