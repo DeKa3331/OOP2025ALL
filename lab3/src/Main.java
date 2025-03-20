@@ -65,16 +65,11 @@ public class Main {
         System.out.println(polyCopy.boundingBox());
         Style style2 = new Style("red","green",2.0);
 
-        Text text = new Text("I love SVG!", new Point(5, 5), 20,100,style2);
+        Text text = new Text("I love SVG!", new Point(5, 55), 20,100,style2);
         System.out.println(text.toSvg());
         System.out.println(text.boundingBox());
 
         scene.addShape(text);
-
-
-
-
-
 
         scene.save("rysunek.svg");
 
